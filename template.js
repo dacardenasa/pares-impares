@@ -5,7 +5,7 @@ const template = () => {
   let status = '';
   for (let i = 1; i <= 50; i++){
     status = (i % 2 === 0) ? 'Par' : 'Impar'; 
-    templateString += `<h1>${i} Soy ${status}!</h1>`;
+    templateString += `<p>${i} Soy ${status}!</p>`;
   }
   return templateString;
 };
